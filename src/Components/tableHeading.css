@@ -1,0 +1,25 @@
+
+
+th {
+    border-bottom: 1px solid var(--border-color);
+    border-collapse: collapse;
+    padding: 10px 10px 10px 0;
+    width: 5%;
+    background-color: var(--secondary-background);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+th > input{
+    padding: 10px;
+    height: 30px;
+
+}
+th:not(:last-child) {
+    padding-left: 10px;
+}
+
+th:first-child {
+    padding-left: 5px;
+}
+

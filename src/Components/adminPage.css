@@ -1,0 +1,14 @@
+.adminPage {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+input[type=checkbox]{
+  width: 1.4rem;
+}

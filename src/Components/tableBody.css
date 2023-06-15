@@ -1,0 +1,60 @@
+tbody {
+    width: 80%;
+    /* border: none; */
+    height: fit-content;
+}
+
+
+tr {
+    border-bottom: 1px solid var(--border-color);
+    padding-left: 10px;
+}
+
+
+td {
+    padding: 0 0 0 5px;
+}
+
+td>input {
+    height: 40px;
+    border-color: var(--border-color);
+    outline: none;
+    padding-left: 5px;
+}
+
+.showBackground>td {
+    background-color: var(--row-background);
+}
+
+.showBackground>td>input {
+    background-color: var(--row-background);
+    border-color: black;
+}
+
+.enableEdit {
+    pointer-events: unset;
+    background-color: var(--input-background);
+    border-color: var(--border-color);
+}
+
+.disableEdit {
+    pointer-events: none;
+    user-select: none;
+    border: hidden;
+    outline: hidden;
+    padding: 5px;
+}
+
+.disable-edit-all{
+    pointer-events: none;
+    color: var(--disable-buuton) !important;
+}
+
+i:first-child {
+    margin-right: 20px;
+    color: var(--success);
+}
+
+i {
+    color: var(--danger);
+}

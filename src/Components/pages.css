@@ -1,0 +1,67 @@
+.pagination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  
+  .pages {
+    width: 70%;
+    text-align: center;
+  }
+  
+  .pages > .active {
+    background-color: var(--background);
+    border: 2px solid var(--primary-pagination-button);
+    color: #040b39;
+  }
+  
+  .pages > button {
+    border: 0;
+    padding: 10px 15px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: var(--primary-pagination-button);
+    color: var(--background);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .pages > button:hover {
+    box-shadow: 0 0 8px 2px var(--secondary-pagination-button);
+  }
+  
+  .pages > .disableButton {
+    pointer-events: none;
+    background-color: var(--disable-buuton);
+  }
+  
+  .DeleteAll > button {
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: var(--background);
+  }
+  
+  .DeleteAll > .enableDelete {
+    background-image: linear-gradient(
+      to right top,
+      #f80d19,
+      #f1003b,
+      #e40253,
+      #d22066,
+      #bc3274
+    );
+  }
+  
+  .DeleteAll > .disableDelete {
+    background-color: var(--disable-buuton);
+  }
+  
+  .DeleteAll > .enableDelete:hover {
+    box-shadow: 0 0 8px 2px var(--secondary-pagination-button);
+  }
+  

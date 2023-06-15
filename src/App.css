@@ -1,0 +1,32 @@
+:root {
+  --text: #0c0d0e;
+  --background: white;
+  --nav-background:bisque;
+  --secondary-background: #ecf8f8;
+  --row-background:#f4f5f5;
+  --input-background:#fcfdfd;
+  --primary-button: #657072;
+  --secondary-button: #f4f5f5;
+  --border-color: #dddddd;
+  --success: green;
+  --danger: red;
+  --primary-pagination-button:#497e7e;
+  --secondary-pagination-button:#040b39;
+  --disable-buuton: gray;
+  
+  /* 0c0d0e */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroud);
+  box-sizing: border-box;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.App {
+  width: 100%;
+}
+
